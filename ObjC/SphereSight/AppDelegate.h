@@ -6,7 +6,10 @@
 //  Copyright © 2016 Leonardo Lee. All rights reserved.
 //
 
+@import GoogleMaps;
+
 #import <UIKit/UIKit.h>
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
