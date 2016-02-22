@@ -1,0 +1,15 @@
+PODS:
+  - GoogleMaps (1.12.1)
+  - Pinterest-iOS (2.3)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - Pinterest-iOS
+
+SPEC CHECKSUMS:
+  GoogleMaps: d4e7526e96e78faf7131ea95f13dd5411cc2916d
+  Pinterest-iOS: e79d1536a7a275e3340cdeb678e85b350f798562
+
+PODFILE CHECKSUM: 588a4f752c8ad3435b0078b37ce679cf26c9d638
+
+COCOAPODS: 1.0.0.beta.3

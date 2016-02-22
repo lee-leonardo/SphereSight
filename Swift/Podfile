@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'SphereSight' do
+  pod 'GoogleMaps'
+  pod 'Pinterest-iOS'
+end
+
+target 'SphereSightTests' do
+  inherit! :search_paths
+end
+
+target 'SphereSightUITests' do
+  inherit! :search_paths
+end
