@@ -15,6 +15,7 @@ class StreetViewController: UIViewController, GMSMapViewDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        loadView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,7 +29,6 @@ class StreetViewController: UIViewController, GMSMapViewDelegate {
         
         panoView.moveNearCoordinate(CLLocationCoordinate2D(latitude: -33.732, longitude: 150.312))
     }
-    
 
     /*
     // MARK: - Navigation
@@ -39,5 +39,7 @@ class StreetViewController: UIViewController, GMSMapViewDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
 
 }
