@@ -10,17 +10,26 @@ import GoogleMaps
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var blueButton: UIView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        setupMaps()
+        buttonExperiment()
+//        setupMaps()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func buttonExperiment() {
+        blueButton = UIView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        blueButton?.backgroundColor = UIColor.blueColor()
+        self.view.addSubview(blueButton!)
     }
     
     func setupMaps() {
@@ -35,9 +44,6 @@ class ViewController: UIViewController {
         marker.snippet = "Australia"
         marker.map = mapView
     }
-    
-    
-
 
 }
 
